@@ -29,6 +29,7 @@ const peerServer = ExpressPeerServer(server, {
 // Set up views
 app.set('views', path.join(__dirname, 'views'));
 app.set("view engine", "ejs");
+app.set("views", "./views");
 
 // PeerJS route
 app.use('/peerjs', peerServer);
