@@ -5,6 +5,7 @@ import { Server } from 'socket.io';
 import { ExpressPeerServer } from 'peer';
 import dotenv from 'dotenv'
 import expressLayout from "express-ejs-layouts"; 
+import path from 'path'
 
 dotenv.config()
 const PORT = process.env.PORT || 3000
