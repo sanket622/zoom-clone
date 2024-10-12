@@ -3,16 +3,23 @@ import { createServer } from 'http'
 import { v4 as uuidv4 } from 'uuid';
 import { Server } from 'socket.io';
 import { ExpressPeerServer } from 'peer';
+import dotenv from 'dotenv'
+import expressLayout from "express-ejs-layouts"; 
+
+dotenv.config()
+const PORT = process.env.PORT || 3000
 
 const app = express()
 app.use(express.static('public'))
+app.use(expressLayout)
 const server = createServer(app)
 const peerServer = ExpressPeerServer(server,{
     debug:true
 })
 
-
-app.set('view engine','ejs')
+app.set('views', path.join(__dirname, 'views'));
+app.set("view engine", "ejs");
+app.set("views", "./views");
 app.use('/peerjs',peerServer)
 
 app.get('/',(req,res)=>{
@@ -39,4 +46,4 @@ io.on('connection',socket =>{
        })
     })
 })
-server.listen(process.env.PORT || 3000)
+server.listen(PORT)
