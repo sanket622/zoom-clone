@@ -1,3 +1,4 @@
+### NOTE ====>  AS I AM USING FREE INSTANCE FOR DEPLOYMENT RENDER.COM TAKES ALMOST 50 SEC TO RENDER THE APP DUE TO INACTIVITY, SO BE PATIENT WHILE BROWSING THE LINK .
 # Plan of Action
 
 - Initialize our NodeJS Project
@@ -69,8 +70,6 @@ Access the app at http://localhost:3000/.
 
 The app is hosted on Render. You can access the live version here:  [https://zoom-clone-kg9r.onrender.com/]
 For quick DEMO , click the hosted link , copy the link and paste in other TAB, You will be connecting with yourself.
-
-### NOTE ====>  AS I AM USING FREE INSTANCE FOR DEPLOYMENT RENDER.COM TAKES ALMOST 50 SEC TO RENDER THE APP DUE TO INACTIVITY, SO BE PATIENT WHILE BROWSING THE LINK .
 
 ## Technologies Used
 
