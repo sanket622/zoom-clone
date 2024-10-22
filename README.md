@@ -1,13 +1,12 @@
 ### NOTE ====>  AS I AM USING FREE INSTANCE FOR DEPLOYMENT RENDER.COM TAKES ALMOST 50 SEC TO RENDER THE APP DUE TO INACTIVITY, SO BE PATIENT WHILE BROWSING THE LINK .
 # Plan of Action
 
-### To Verify the proect works => 
+### This demonstrates how multiple users can join the same meeting using the unique link=> 
+
 - Click on the Hosted Link: Open the zoom-clone app by clicking the provided hosted link.
 - Copy the Generated Link: Once you're in the app, a unique link will be generated. Copy this link from the browser's address bar.
 - Open the Link in Another Tab: Paste the copied link into a new tab in your browser.
 - Join the Meeting: You will now join the same meeting as another participant, effectively joining yourself in the call.
-
-### This demonstrates how multiple users can join the same meeting using the unique link.
 
 - Initialize our NodeJS Project
 - Initialize our first view
