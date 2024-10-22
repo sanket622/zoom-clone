@@ -1,5 +1,4 @@
 ### NOTE ====>  AS I AM USING FREE INSTANCE FOR DEPLOYMENT RENDER.COM TAKES ALMOST 50 SEC TO RENDER THE APP DUE TO INACTIVITY, SO BE PATIENT WHILE BROWSING THE LINK .
-# Plan of Action
 
 ### This demonstrates how multiple users can join the same meeting using the unique link=> 
 
@@ -7,6 +6,8 @@
 - Copy the Generated Link: Once you're in the app, a unique link will be generated. Copy this link from the browser's address bar.
 - Open the Link in Another Tab: Paste the copied link into a new tab in your browser.
 - Join the Meeting: You will now join the same meeting as another participant, effectively joining yourself in the call.
+
+# Plan of Action
 
 - Initialize our NodeJS Project
 - Initialize our first view
